@@ -24,7 +24,6 @@
     }
     .indivh5 {
         font-size: 24px;
-        margin-left: -150px;
     }
     .audioImg {
         background-image: url(/assets/audiotab.svg);
@@ -98,9 +97,6 @@
     .aClass {
         margin-top: -16px;
         margin-left: -200px;
-    }
-    .linkSvg {
-        margin-left: 100px;
     }
 }
 

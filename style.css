@@ -118,6 +118,8 @@ input[type=text]{
     text-align:bottom 0px;padding-left:40px;
 }
 .indivh1 {
+    display: grid;
+    place-items: center;
     margin-top: 20px;
     grid-area: ori ;
     color:  var(--white);
@@ -171,7 +173,7 @@ input[type=text]{
    background-image: url(/assets/line2svg.svg);
    background-repeat: no-repeat;
    width: 250px;
-   height: 1px;
+   height: 6px;
    margin-left: -80px;
 }
 .nAmh2 {
@@ -317,9 +319,10 @@ input[type=text]{
     text-decoration-line: underline;
 }
 .aClass {
+    width: 247px;
     margin-bottom: 70px;
     margin-top: 10px;
-    margin-left: -20px;
+    margin-left: -44px;
     color:  var(--white);
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Inconsolata;
@@ -328,15 +331,6 @@ input[type=text]{
     font-weight: 400;
     line-height: normal;
     text-decoration-line: underline;
-}
-.linkSvg {
-    margin-top: -156px;
-    margin-left: 280px;
-    background-image: url(/assets/link.svg);
-    background-repeat: no-repeat;
-    width: 17px;
-    height: 15px;
-    cursor: pointer;
 }
 .whiteCirclerotate {
     transform: translateX(137%);
